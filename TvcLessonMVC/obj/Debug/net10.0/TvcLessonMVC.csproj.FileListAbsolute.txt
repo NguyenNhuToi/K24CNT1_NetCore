@@ -96,3 +96,4 @@ D:\K24CNT1-NET\K24CNT1_NetCore\TvcLessonMVC\obj\Debug\net10.0\refint\TvcLessonMV
 D:\K24CNT1-NET\K24CNT1_NetCore\TvcLessonMVC\obj\Debug\net10.0\TvcLessonMVC.pdb
 D:\K24CNT1-NET\K24CNT1_NetCore\TvcLessonMVC\obj\Debug\net10.0\TvcLessonMVC.genruntimeconfig.cache
 D:\K24CNT1-NET\K24CNT1_NetCore\TvcLessonMVC\obj\Debug\net10.0\ref\TvcLessonMVC.dll
+D:\K24CNT1-NET\K24CNT1_NetCore\TvcLessonMVC\obj\Debug\net10.0\TvcLessonMVC.sourcelink.json

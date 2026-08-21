@@ -1,0 +1,61 @@
+﻿@{
+    var products = new[]
+    {
+        new {
+            Id = 1,
+            Name = "Asus ROG Strix G16 (2023) Gaming",
+            Price = " 35.000.000 đ",
+            CreatedAt = "04-01-2023",
+            Image = "/images/AsusGaming.jpg"
+        },
+        new {
+            Id = 2,
+            Name = "Acer Nitro17 Gaming",
+            Price = "28.000.000 đ",
+            CreatedAt = "04-01-2023",
+            Image = "/images/AcerGaming.jpg"
+        },
+        new {
+            Id = 3,
+            Name = "Dell G15 Gaming",
+            Price = "40.000.000 đ",
+            CreatedAt = "13-04-2021",
+            Image = "/images/DellGaming.jpg"
+        },
+        new {
+            Id = 4,
+            Name = "MSI Vector 16 HX AI Gaming",
+            Price = "63.990.000 đ",
+            CreatedAt = "07-01-2025",
+            Image = "/images/MSIgaming.jpg"
+        }
+    };
+}
+
+<h1>Quản lý sản phẩm</h1>
+
+<table class="product-table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Created At</th>
+        <th>Image</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in products)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.CreatedAt</td>
+            <td>
+                <img src="@item.Image" width="60">
+            </td>
+            <td>
+                <button>View</button>
+            </td>
+        </tr>
+    }
+</table>

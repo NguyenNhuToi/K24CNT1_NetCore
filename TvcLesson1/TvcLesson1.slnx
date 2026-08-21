@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../Lab01/Lab01.csproj" Id="f8dbaec6-a318-4e43-ae20-2c74ef01c716" />
   <Project Path="../TvcLessonMVC/TvcLessonMVC.csproj" />
   <Project Path="TvcLesson1.csproj" />
 </Solution>

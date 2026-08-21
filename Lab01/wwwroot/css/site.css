@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background: linear-gradient( rgba(0,50,150,.8), rgba(0,50,150,.8) );
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+    .banner h1 {
+        font-size: 45px;
+    }
+    .banner p {
+        font-size: 18px;
+    }
+    .banner button {
+        background: white;
+        border: none;
+        padding: 10px 20px;
+    }
+.container {
+    width: 80%;
+    margin: auto;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+.product-card {
+    width: 22%;
+    text-align: center;
+}
+    .product-card img {
+        width: 200px;
+        height: 170px;
+        object-fit: contain;
+    }
+    .product-card h3 {
+        font-weight: normal;
+    }
+
+.product-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+    .product-table th {
+        text-align: left;
+        padding: 15px;
+        font-weight: bold;
+    }
+    .product-table td {
+        padding: 15px;
+    }
+    .product-table tr {
+        border-bottom: 1px solid #eee;
+    }
+.product-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.btn-detail {
+    background: #4CAF20;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+h1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+}

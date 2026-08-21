@@ -27,3 +27,4 @@ D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson1\obj\Debug\net10.0\refint\TvcLesson1.dl
 D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson1\obj\Debug\net10.0\TvcLesson1.pdb
 D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson1\obj\Debug\net10.0\TvcLesson1.genruntimeconfig.cache
 D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson1\obj\Debug\net10.0\ref\TvcLesson1.dll
+D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson1\obj\Debug\net10.0\TvcLesson1.sourcelink.json
