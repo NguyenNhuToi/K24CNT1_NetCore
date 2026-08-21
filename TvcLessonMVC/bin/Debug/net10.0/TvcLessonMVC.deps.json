@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TvcLessonMVC/1.0.0": {
+        "runtime": {
+          "TvcLessonMVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TvcLessonMVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

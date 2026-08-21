@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D2CB22F-4855-44B5-8EE7-A79880EBED84}|..\\TvcLessonMVC\\TvcLessonMVC.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclessonmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87645570-5DF9-4F09-BE29-8CABDF7E3F6D}|TvcLesson1.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87645570-5DF9-4F09-BE29-8CABDF7E3F6D}|TvcLesson1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLessonMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\TvcLessonMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLessonMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\TvcLessonMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-21T09:04:05.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T09:02:16.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
