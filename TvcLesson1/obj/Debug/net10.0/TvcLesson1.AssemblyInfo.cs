@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TvcLesson1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+277048a1258c4fa2546200ccd2a96a52807c4d3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+970b5d06814afc6ede082a11cc21585ef68a8e85")]
 [assembly: System.Reflection.AssemblyProductAttribute("TvcLesson1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TvcLesson1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

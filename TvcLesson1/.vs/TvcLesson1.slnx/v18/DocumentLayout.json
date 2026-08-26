@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8DBAEC6-A318-4E43-AE20-2C74EF01C716}|..\\Lab01\\Lab01.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\lab01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8DBAEC6-A318-4E43-AE20-2C74EF01C716}|..\\Lab01\\Lab01.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\lab01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8DBAEC6-A318-4E43-AE20-2C74EF01C716}|..\\Lab01\\Lab01.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\lab01\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8DBAEC6-A318-4E43-AE20-2C74EF01C716}|..\\Lab01\\Lab01.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\lab01\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8DBAEC6-A318-4E43-AE20-2C74EF01C716}|..\\Lab01\\Lab01.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\lab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02Demo\\Controllers\\TvcProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,72 +13,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\Lab01\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\Lab01\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T14:52:49.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\Lab01\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "..\\Lab01\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T14:46:44.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "..\\Lab01\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "..\\Lab01\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T14:46:04.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "..\\Lab01\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "..\\Lab01\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAUwHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-21T14:40:40.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\Lab01\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\Lab01\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\Lab01\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T13:31:23.027Z",
-              "EditorCaption": ""
+              "Title": "TvcProductController.cs",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
+              "RelativeDocumentMoniker": "..\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
+              "RelativeToolTip": "..\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T02:20:05.248Z"
             }
           ]
         }

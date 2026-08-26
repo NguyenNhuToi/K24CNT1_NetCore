@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\tvcproduct\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\tvcproduct\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\tvcproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\tvcproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\models\\tvcproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:models\\tvcproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\controllers\\tvcproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:controllers\\tvcproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProduct.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\TvcProduct\\GetProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcProduct\\GetProduct.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\TvcProduct\\GetProduct.cshtml",
+              "RelativeToolTip": "Views\\TvcProduct\\GetProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T04:36:45.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TvcProduct.cs",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Models\\TvcProduct.cs",
+              "RelativeDocumentMoniker": "Models\\TvcProduct.cs",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Models\\TvcProduct.cs",
+              "RelativeToolTip": "Models\\TvcProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T04:21:52.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T04:05:57.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\TvcProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcProduct\\Index.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\TvcProduct\\Index.cshtml",
+              "RelativeToolTip": "Views\\TvcProduct\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-26T03:52:47.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TvcProductController.cs",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Controllers\\TvcProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TvcProductController.cs",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Controllers\\TvcProductController.cs",
+              "RelativeToolTip": "Controllers\\TvcProductController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T03:51:43.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
