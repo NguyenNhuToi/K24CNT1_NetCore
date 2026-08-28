@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson03\\models\\tvcproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|solutionrelative:models\\tvcproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson03\\controllers\\tvcproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|solutionrelative:controllers\\tvcproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson03\\views\\tvcproduct\\tvcgetallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|solutionrelative:views\\tvcproduct\\tvcgetallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson03\\views\\tvcproduct\\tvcgetlistproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|solutionrelative:views\\tvcproduct\\tvcgetlistproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson03\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4694C9FC-1916-4C40-8CD3-803E7E32F357}|TvcLesson03.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-28T08:04:26.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TvcGetListProduct.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Views\\TvcProduct\\TvcGetListProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcProduct\\TvcGetListProduct.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Views\\TvcProduct\\TvcGetListProduct.cshtml",
+              "RelativeToolTip": "Views\\TvcProduct\\TvcGetListProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-28T07:58:52.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TvcGetAllProduct.cshtml",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Views\\TvcProduct\\TvcGetAllProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcProduct\\TvcGetAllProduct.cshtml",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Views\\TvcProduct\\TvcGetAllProduct.cshtml",
+              "RelativeToolTip": "Views\\TvcProduct\\TvcGetAllProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-28T07:38:01.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TvcProductController.cs",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Controllers\\TvcProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TvcProductController.cs",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Controllers\\TvcProductController.cs",
+              "RelativeToolTip": "Controllers\\TvcProductController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwFwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:22:28.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TvcProduct.cs",
+              "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Models\\TvcProduct.cs",
+              "RelativeDocumentMoniker": "Models\\TvcProduct.cs",
+              "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson03\\Models\\TvcProduct.cs",
+              "RelativeToolTip": "Models\\TvcProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:20:18.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

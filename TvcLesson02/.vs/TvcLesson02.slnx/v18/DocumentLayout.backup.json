@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\tvcproduct\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\tvcproduct\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\tvcproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\tvcproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\models\\tvcproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:models\\tvcproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\tvcproduct\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\tvcproduct\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\views\\tvcproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|solutionrelative:views\\tvcproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D70B5A9-07AD-4760-A239-AFBFB5A58A22}|TvcLesson02.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02\\controllers\\tvcproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GetProduct.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\TvcProduct\\GetProduct.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcProduct\\GetProduct.cshtml",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TvcProduct.cs",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Models\\TvcProduct.cs",
               "RelativeDocumentMoniker": "Models\\TvcProduct.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02\\Views\\TvcProduct\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcProduct\\Index.cshtml",

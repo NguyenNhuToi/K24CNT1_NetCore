@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A91C1A3-F433-4B63-B73B-74FB39ECE3AB}|..\\TvcLesson02Demo\\TvcLesson02Demo.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson02demo\\controllers\\tvcproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02Demo\\Controllers\\TvcProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,10 +23,8 @@
               "RelativeDocumentMoniker": "..\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
               "ToolTip": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
               "RelativeToolTip": "..\\TvcLesson02Demo\\Controllers\\TvcProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T02:20:05.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-26T02:20:05.248Z"
             }
           ]
         }
