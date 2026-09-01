@@ -14,7 +14,7 @@
         public double Rating { get; set; }
         public string Publisher { get; set; }
         public string Developer { get; set; }
-        public bool IsHot { get; set; }  // Sản phẩm hot
-        public bool IsNew { get; set; }  // Sản phẩm mới
+        public bool IsHot { get; set; }  
+        public bool IsNew { get; set; }  
     }
 }
