@@ -1,0 +1,104 @@
+@{
+    ViewData["Title"] = "Resident Evil Store";
+    var tvcProducts = ViewBag.TvcProducts as List<TvcProduct> ?? new List<TvcProduct>();
+    var tvcCategories = ViewBag.TvcCategories as List<TvcCategory> ?? new List<TvcCategory>();
+    var selectedCategory = ViewBag.SelectedCategory as int?;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar Danh mục -->
+        <div class="col-md-2">
+            <div class="category-sidebar mt-4">
+                <h5 class="fw-bold mb-3">DANH MỤC</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a asp-controller="TvcProduct" asp-action="Index"
+                           class="text-decoration-none @(!selectedCategory.HasValue ? "fw-bold text-primary" : "text-dark")">
+                            Tất cả
+                        </a>
+                    </li>
+                    @if (tvcCategories != null && tvcCategories.Count > 0)
+                    {
+                        @foreach (var category in tvcCategories)
+                        {
+                            <li class="mb-2">
+                                <a asp-controller="TvcProduct" asp-action="Index"
+                                   asp-route-categoryId="@category.Id"
+                                   class="text-decoration-none @(selectedCategory == category.Id ? "fw-bold text-primary" : "text-dark")">
+                                    @category.Name
+                                </a>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="mb-2 text-muted">Không có danh mục</li>
+                    }
+                </ul>
+                <hr />
+                <p class="text-muted small">@(tvcProducts != null ? tvcProducts.Count : 0) sản phẩm</p>
+            </div>
+        </div>
+
+        <!-- Danh sách sản phẩm -->
+        <div class="col-md-10">
+            <div class="row">
+                @if (tvcProducts != null && tvcProducts.Count > 0)
+                {
+                    @foreach (TvcProduct item in tvcProducts)
+                    {
+                        <div class="col-md-4 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="img">
+                                        @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                        {
+                                            <img src="@item.ImageUrl" alt="@item.Name" class="w-100" style="height: 200px; object-fit: cover;" />
+                                        }
+                                        else
+                                        {
+                                            <div class="w-100" style="height: 200px; background: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                                                <span>No Image</span>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div class="mt-2">
+                                        <h5>@item.Name</h5>
+                                        <p class="text-muted">@item.Description</p>
+                                        <p>
+                                            <span class="text-decoration-line-through text-muted">@item.Price.ToString("N0") VNĐ</span><br />
+                                            <span class="text-danger fw-bold">@item.SalePrice.ToString("N0") VNĐ</span>
+                                        </p>
+                                        <p>
+                                            <span class="badge bg-secondary">@item.Category</span>
+                                            <span class="badge bg-info">@item.ReleaseYear</span>
+                                            @if (item.IsHot)
+                                            {
+                                                <span class="badge bg-warning text-dark">HOT</span>
+                                            }
+                                            @if (item.IsNew)
+                                            {
+                                                <span class="badge bg-success">NEW</span>
+                                            }
+                                        </p>
+                                        <a asp-route="tvcproductdetail" asp-route-id="@item.Id" class="btn btn-success btn-block w-100">
+                                            Chi Tiết Sản Phẩm
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-12 text-center py-5">
+                        <h4>Không có sản phẩm nào</h4>
+                        <p class="text-muted">Hiện tại chưa có sản phẩm nào trong danh mục này.</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

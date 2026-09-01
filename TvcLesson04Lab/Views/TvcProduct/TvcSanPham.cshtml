@@ -1,0 +1,164 @@
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    var product = ViewBag.TvcProduct as TvcProduct;
+}
+
+<div class="container">
+    @if (product != null)
+    {
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <!-- SỬA LẠI BACK TO LIST -->
+                <a asp-controller="TvcProduct" asp-action="Index" class="btn btn-danger">
+                    <i class="fas fa-arrow-left"></i> Back to list
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="border p-5">
+                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" alt="@product.Name" class="w-100" style="height: 300px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <div class="w-100" style="height: 300px; background: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                            <span>No Image</span>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card p-5">
+                    <h3>Tên sản phẩm: @product.Name</h3>
+                    <p><strong>Mô tả:</strong> @product.Description</p>
+                    <p>
+                        <strong>Giá gốc:</strong>
+                        <span class="text-decoration-line-through text-muted">@product.Price.ToString("N0") VNĐ</span>
+                    </p>
+                    <p>
+                        <strong>Giá khuyến mãi:</strong>
+                        <span class="text-danger fw-bold">@product.SalePrice.ToString("N0") VNĐ</span>
+                    </p>
+                    <p><strong>Danh mục:</strong> @product.Category</p>
+                    <p><strong>Năm phát hành:</strong> @product.ReleaseYear</p>
+                    <p><strong>Nền tảng:</strong> @product.Platform</p>
+                    <p><strong>Nhà phát hành:</strong> @product.Publisher</p>
+                    <p><strong>Nhà phát triển:</strong> @product.Developer</p>
+                    <p>
+                        <strong>Đánh giá:</strong>
+                        @if (product.Rating > 0)
+                        {
+                            for (int i = 0; i < 5; i++)
+                            {
+                                if (i < Math.Floor(product.Rating))
+                                {
+                                    <i class="fas fa-star text-warning"></i>
+                                }
+                                else if (i < product.Rating)
+                                {
+                                    <i class="fas fa-star-half-alt text-warning"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star text-warning"></i>
+                                }
+                            }
+                            <span>(@product.Rating/10)</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Chưa có đánh giá</span>
+                        }
+                    </p>
+                    <p>
+                        <strong>Trạng thái:</strong>
+                        @if (product.IsHot && product.IsNew)
+                        {
+                            <span class="badge bg-warning text-dark">HOT</span>
+                            <span class="badge bg-success">MỚI</span>
+                            <span class="badge bg-info">Đã phát hành</span>
+                        }
+                        else if (product.IsHot)
+                        {
+                            <span class="badge bg-warning text-dark">HOT</span>
+                            <span class="badge bg-secondary">Đã phát hành</span>
+                        }
+                        else if (product.IsNew)
+                        {
+                            <span class="badge bg-success">MỚI</span>
+                            <span class="badge bg-secondary">Đã phát hành</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Đã phát hành</span>
+                        }
+                    </p>
+
+                    <p>
+                        <!-- SỬA LẠI BACK TO LIST -->
+                        <a asp-controller="TvcProduct" asp-action="Index" class="btn btn-danger">
+                            <i class="fas fa-arrow-left"></i> Back to list
+                        </a>
+                        <button class="btn btn-success">
+                            <i class="fas fa-shopping-cart"></i> Mua ngay
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sản phẩm liên quan -->
+        @if (ViewBag.RelatedProducts != null)
+        {
+            var relatedProducts = ViewBag.RelatedProducts as List<TvcProduct>;
+            if (relatedProducts != null && relatedProducts.Count > 0)
+            {
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h4>Sản phẩm liên quan</h4>
+                        <hr />
+                    </div>
+                    @foreach (var item in relatedProducts)
+                    {
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                    {
+                                        <img src="@item.ImageUrl" alt="@item.Name" class="w-100" style="height: 150px; object-fit: cover;" />
+                                    }
+                                    else
+                                    {
+                                        <div class="w-100" style="height: 150px; background: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                                            <span>No Image</span>
+                                        </div>
+                                    }
+                                    <h6 class="mt-2">@item.Name</h6>
+                                    <p class="text-danger fw-bold">@item.SalePrice.ToString("N0") VNĐ</p>
+                                    <a asp-route="tvcproductdetail" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger w-100">
+                                        Xem chi tiết
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        }
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <h4>Không tìm thấy sản phẩm!</h4>
+            <p>Sản phẩm bạn đang tìm không tồn tại hoặc đã bị xóa.</p>
+            <a asp-controller="TvcProduct" asp-action="Index" class="btn btn-danger">Quay lại danh sách</a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+}

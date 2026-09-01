@@ -30,6 +30,18 @@ namespace TvcLesson04Lab
                 pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
+            app.MapControllerRoute(
+                name: "tvcproduct",
+                pattern: "san-pham/{action=Index}/{id?}",
+                defaults: new { controller = "TvcProduct", action = "Index" }
+            );
+
+            app.MapControllerRoute(
+                name: "tvcproductdetail",
+                pattern: "san-pham-cua-toi/{id?}",
+                defaults: new { controller = "TvcProduct", action = "TvcSanPham" }
+            );
+
             //Các Route mới
             app.MapControllerRoute(
                 name: "account",

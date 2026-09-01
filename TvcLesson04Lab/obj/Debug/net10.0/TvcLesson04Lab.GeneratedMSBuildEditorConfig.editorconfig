@@ -47,6 +47,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHZjQWNjb3VudFxUdmNQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/K24CNT1-NET/K24CNT1_NetCore/TvcLesson04Lab/Views/TvcProduct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHZjUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/K24CNT1-NET/K24CNT1_NetCore/TvcLesson04Lab/Views/TvcProduct/TvcSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHZjUHJvZHVjdFxUdmNTYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/K24CNT1-NET/K24CNT1_NetCore/TvcLesson04Lab/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
