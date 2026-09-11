@@ -1,0 +1,16 @@
+﻿@model IEnumerable<TvcLesson06_Lab.Models.Product>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-3 new-product-col">
+            <div class="card h-100 new-product-card">
+                <img src="@item.ImageUrl" class="card-img-top" alt="@item.ProductName" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h6 class="card-title text-center">@item.ProductName</h6>
+                    <p class="text-danger text-center fw-bold">@item.Price.ToString("N0") đ</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

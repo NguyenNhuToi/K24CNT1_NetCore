@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TvcLesson06_Lab</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TvcLesson06_Lab.styles.css" asp-append-version="true" />
+</head>
+<body>
+    @Html.Partial("_TvcHeaderPartialView")
+
+    <div class="container">
+        <main role="main" class="row pb-3">
+            <div class="col-md-3">
+                @Html.Partial("_TvcCategoryPartialView", new List<TvcLesson06_Lab.Models.Category> {
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 1, CategoryName = "Áo đầm" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 2, CategoryName = "Áo đông" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 3, CategoryName = "Túi xách" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 4, CategoryName = "Đồng hồ" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 5, CategoryName = "Ví da" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 6, CategoryName = "Thắt lưng da" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 7, CategoryName = "Túi xách" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 8, CategoryName = "Túi xách" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 9, CategoryName = "Quần đùi" },
+                    new TvcLesson06_Lab.Models.Category { CategoryId = 10, CategoryName = "Lò sưởi" },
+                })
+            </div>
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+    @Html.Partial("_TvcFooterPartialView")
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿@model IEnumerable<TvcLesson06_Lab.Models.Category>
+
+<div class="list-group">
+    <h5 class="list-group-item active bg-primary text-white category-header">Danh mục sản phẩm</h5>
+    @foreach (var item in Model)
+    {
+        <a href="#" class="list-group-item list-group-item-action category-item">@item.CategoryName</a>
+    }
+</div>
+
+<div class="mt-3 text-center category-banner">
+    <img src="~/images/BannerGaming.jpg" class="img-fluid" alt="Banner quảng cáo" style="max-width: 100%; height: auto;" />
+</div>
