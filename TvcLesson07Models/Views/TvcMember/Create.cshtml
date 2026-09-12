@@ -1,0 +1,51 @@
+@model TvcLesson07Models.Models.DataModels.TvcMember
+
+@{
+    ViewData["Title"] = "Thêm mới thành viên";
+}
+
+<div class="card p-3">
+    <h1>@ViewData["Title"]</h1>
+    
+    <form asp-action="Create" method="post" asp-controller="TvcMember">
+        <div class="form-group mb-3">
+            <label asp-for="TvcMemberId" class="form-label"></label>
+            <input asp-for="TvcMemberId" class="form-control" />
+            <span asp-validation-for="TvcMemberId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="TvcUserName" class="form-label"></label>
+            <input asp-for="TvcUserName" class="form-control" />
+            <span asp-validation-for="TvcUserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="TvcPassword" class="form-label"></label>
+            <input asp-for="TvcPassword" class="form-control" />
+            <span asp-validation-for="TvcPassword" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="TvcFullName" class="form-label"></label>
+            <input asp-for="TvcFullName" class="form-control" />
+            <span asp-validation-for="TvcFullName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="TvcEmail" class="form-label"></label>
+            <input asp-for="TvcEmail" class="form-control" />
+            <span asp-validation-for="TvcEmail" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Xác nhận" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại</a>
+        </div>
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
