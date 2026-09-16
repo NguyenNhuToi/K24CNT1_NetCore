@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TvcLesson08Models.Models.TvcMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<div class="card p-3">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1> 
+        <a asp-action="TvcCreate">Thêm  mới</a>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TvcMemberId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TvcUserName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TvcPassword)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TvcFullName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TvcEmail)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TvcMemberId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TvcUserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TvcPassword)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TvcFullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TvcEmail)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Sửa", "TvcEdit", new {  id=item.TvcMemberId }) |
+                        @Html.ActionLink("Xem chi tiết", "TvcDetails", new { id = item.TvcMemberId }) |
+                            @Html.ActionLink("Xóa", "TvcDelete", new { id = item.TvcMemberId })
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
