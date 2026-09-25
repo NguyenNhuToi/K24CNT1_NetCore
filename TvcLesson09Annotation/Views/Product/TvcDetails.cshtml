@@ -1,0 +1,44 @@
+@model TvcLesson09Annotation.Models.DataModels.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Id</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Tên sản phẩm</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Hình ảnh</dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.Image))
+            {
+                <img src="~/products/@Model.Image" alt="Ảnh sản phẩm" style="max-width:200px; max-height:200px;" />
+            }
+        </dd>
+
+        <dt class="col-sm-2">Giá</dt>
+        <dd class="col-sm-10">@String.Format("{0:C}", Model.Price)</dd>
+
+        <dt class="col-sm-2">Giá khuyến mãi</dt>
+        <dd class="col-sm-10">@String.Format("{0:C}", Model.SalePrice)</dd>
+
+        <dt class="col-sm-2">Mô tả</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Danh mục</dt>
+        <dd class="col-sm-10">@Model.Category?.Name</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="TvcEdit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="TvcIndex" class="btn btn-secondary">Back to List</a>
+</div>

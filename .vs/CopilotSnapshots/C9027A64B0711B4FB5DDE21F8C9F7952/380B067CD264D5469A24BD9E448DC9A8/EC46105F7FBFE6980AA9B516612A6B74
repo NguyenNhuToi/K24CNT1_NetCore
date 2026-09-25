@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TvcLesson09Annotation.Models.DataModels.TvcMember>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcMemberId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TvcBirthday)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcMemberId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcBirthday)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.TvcMemberId">Details</a> |
+                <a asp-action="Edit" asp-route-id="@item.TvcMemberId">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.TvcMemberId">Delete</a>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>

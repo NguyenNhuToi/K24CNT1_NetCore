@@ -1,0 +1,36 @@
+@model TvcLesson09Annotation.Models.DataModels.TvcMember
+
+@{
+    ViewData["Title"] = "Chi tiết thành viên";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>Member</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Id</dt>
+        <dd class="col-sm-10">@Model.TvcMemberId</dd>
+
+        <dt class="col-sm-2">Tên đăng nhập</dt>
+        <dd class="col-sm-10">@Model.TvcUserName</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.TvcEmail</dd>
+
+        <dt class="col-sm-2">Số điện thoại</dt>
+        <dd class="col-sm-10">@Model.TvcPhoneNumber</dd>
+
+        <dt class="col-sm-2">Họ và tên</dt>
+        <dd class="col-sm-10">@Model.TvcFullName</dd>
+
+        <dt class="col-sm-2">Ngày sinh</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.TvcDateOfBirth)</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.TvcMemberId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
