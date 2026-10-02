@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson08models\\views\\tvchome\\tvcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|solutionrelative:views\\tvchome\\tvcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson08models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson08models\\controllers\\tvcmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|solutionrelative:controllers\\tvcmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson08models\\views\\tvchome\\tvcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|solutionrelative:views\\tvchome\\tvcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CB36392-2D82-7B31-D3E0-598AA0E3E2F4}|TvcLesson08Models.csproj|d:\\k24cnt1-net\\k24cnt1_netcore\\tvclesson08models\\views\\tvchome\\tvcprivacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Views\\TvcMember\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcMember\\Index.cshtml",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TvcCreate.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Views\\TvcMember\\TvcCreate.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcMember\\TvcCreate.cshtml",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TvcDelete.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Views\\TvcMember\\TvcDelete.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcMember\\TvcDelete.cshtml",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TvcDetails.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Views\\TvcMember\\TvcDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcMember\\TvcDetails.cshtml",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TvcMemberController.cs",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Controllers\\TvcMemberController.cs",
               "RelativeDocumentMoniker": "Controllers\\TvcMemberController.cs",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TvcEdit.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Views\\TvcMember\\TvcEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcMember\\TvcEdit.cshtml",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "TvcAbout.cshtml",
               "DocumentMoniker": "D:\\K24CNT1-NET\\K24CNT1_NetCore\\TvcLesson08Models\\Views\\TvcHome\\TvcAbout.cshtml",
               "RelativeDocumentMoniker": "Views\\TvcHome\\TvcAbout.cshtml",
@@ -159,7 +159,8 @@
               "RelativeToolTip": "Views\\TvcHome\\TvcAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-16T15:16:21.95Z"
+              "WhenOpened": "2026-09-16T15:16:21.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

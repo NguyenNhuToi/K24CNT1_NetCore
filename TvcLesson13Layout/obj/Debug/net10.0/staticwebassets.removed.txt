@@ -1,0 +1,2 @@
+D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson13Layout\wwwroot\css\TvcLayoutHome.css
+D:\K24CNT1-NET\K24CNT1_NetCore\TvcLesson13Layout\wwwroot\js\TvcLayoutHome.js

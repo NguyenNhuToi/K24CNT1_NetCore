@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/NntLayoutHome.css" asp-append-version="true" />
+</head>
+<body>
+    
+    <nav class="container border my-1 p-2">
+        <div>
+            <a href="/Products/Index" title="Danh sách sản phẩm">Danh sách sản phẩm</a>
+            <a asp-action="Search" asp-controller="Products">Tìm kiếm sản phẩm</a>
+            <a asp-action="Hots" asp-controller="Products">Sản phẩm bán chạy</a>
+            <a href="/Products/About">Giới thiệu</a>
+        </div>
+    </nav>
+    <div class="container border my-1 p-2 main">
+        @RenderBody()
+    </div>
+    <footer class="container border my-1 p-2">
+        <p style="text-align: center;">&copy; 10/2026 <br/>  Copyright by @@Như Tới  <br/> <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
+    </footer>
+
+    <script src="~/js/TvcLayoutHome.js" asp-append-version="true"></script>
+</body>
+</html>
