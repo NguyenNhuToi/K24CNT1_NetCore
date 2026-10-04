@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Nnt_TvcLesson14.Data;
+
 namespace Nnt_TvcLesson14
 {
     public class Program
@@ -6,33 +9,31 @@ namespace Nnt_TvcLesson14
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.MapStaticAssets();
 
-            // --- THÊM ĐOẠN NÀY VÀO ---
+            // Cấu hình Route cho Area
             app.MapControllerRoute(
                 name: "areas",
                 pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
-            // --------------------------
 
+            // Route mặc định (KHÔNG có defaults area)
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}")
@@ -41,4 +42,4 @@ namespace Nnt_TvcLesson14
             app.Run();
         }
     }
-} 
+}
